@@ -2,11 +2,31 @@ body{
     margin : 0px;
 }
 
+.problems{
+    margin-top : 150px;
+}
 
-.header{
-    position : fixed;
-    width : 100%;
-    top : 0px;
+#problem1{
+    margin-top : 100px;
+}
+.num{
+    display : inline;
+    vertical-align: top;
+    color : #5b5b59;
+    font-size : 20px;
+    font-weight: bold;
+    width : 30px;
+}
+.sol{
+    width:100%;
+}
+.problem{
+    padding-top: 4px;
+    display : inline;
+    width :90%;
+}
+#button{
+    width:100%;
 }
 
 #index{
@@ -17,10 +37,22 @@ body{
 	margin-left :auto;
 	margin-right:auto;
 }
+.problemset{
+    display : block;
+    width : 50%;
+    margin-left : auto;
+    margin-right : auto;
+}
 
 .files{
     display : block;
     width : 70%;
     margin-left : auto;
     margin-right : auto;
+}
+
+.header{
+    position : fixed;
+    width : 100%;
+    top : 0px;
 }

@@ -1,22 +1,56 @@
-<!DOCTYPE html>
+<?
+header('Content-Type: text/html; charset=utf-8');
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <script src="libs/jquery-1.11.3.min.js"></script>
     </head>
     <body>
-       
-        <div>
-            <img class ="header" src='imgs/result/result_header.png'/> 
+    <div>
+            <img class ="header" src='imgs/problem/pro.png'/> 
+    </div>
+
+    <div class = "problemset">
+    	<div id = "problem1">
+             <div class = "num">1.</div>
+             <img class ="problem" src='imgs/problem/0.png'/> 
+
+             <img id ="button" src='imgs/problem/rset_sol.png'/> 
+
         </div>
-        <div>
-            <img class = "files" src='imgs/result/result.png'/>
+
+        <div class = "problems">
+             <div class = "num">2.</div>
+             <img class ="problem" src='imgs/problem/1.png'/> 
+             <img id ="button" src='imgs/problem/rset_sol.png'/>
         </div>
-        
+        <div class = "problems">
+             <div class = "num">3.</div>
+             <img class ="problem" src='imgs/problem/2.png'/> 
+             <img id ="button" src='imgs/problem/rset_sol.png'/>
+        </div>
+        <div class = "problems">
+             <div class = "num">4.</div>
+             <img class ="problem" src='imgs/problem/3.png'/> 
+             <img id ="button" src='imgs/problem/rset_sol.png'/> 
+        </div>
+        <div class = "problems">
+            <div class = "num">5.</div>
+             <img class ="problem" src='imgs/problem/4.png'/> 
+             <img id ="button" src='imgs/problem/rset_sol.png'/>
+        </div>
+
+    </div>
+
         <div id = "index">
-            <a href = "index.html">result</a>
-            <a href = "problem.html">problem</a> 
+            <a href = "index.html">problemsets</a>
+            <a href = "problem.html">note(wrong)</a>
             <a href = "tutor.html">tutor</a>
+            <a href = "diagnose.html">diagnose</a>
         </div>
-    </body>
+    </bdy>
 </html>
